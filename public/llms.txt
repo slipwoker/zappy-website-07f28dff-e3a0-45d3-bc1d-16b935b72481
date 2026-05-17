@@ -1,0 +1,105 @@
+# Tzivya.A — Generative Engine Optimization Map
+
+> Tzivya.A is a modest women's fashion brand offering stylish yet modest clothing. The website needs to include detailed product pages with sizing and specifications, and must be built with infrastructure to support an agent/representative portal for viewing and managing customer orders. A logo has been provided by the client.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+ברוכות הבאות ל-Tzivya.A – המותג שמשלב אופנת נשים צנועה עם רוח שנות ה-80 הבלתי נשכחת. קולקציות עדכניות, סגנון ייחודי וקניות אונליין נוחות. הכנסי ותתאהבי!
+
+### סיפור המותג
+https://example.com/brand-story
+סיפור המותג Tzivya.A הוא סיפור של תשוקה, ערכים וסגנון שלא מתפשר. גלי איך נולד חזון שמשנה את עולם האופנה הצנועה לנשים מודרניות ועצמאיות. קראי והתעוררי!
+
+### מידות ופרטי מוצר
+https://example.com/fit-details
+טבלאות מידות מפורטות, מפרטי בד ותיאורי מוצר מדויקים – כל מה שצריך לדעת לפני הקנייה. קניות חכמות ובטוחות שמתאימות בדיוק לגוף שלך. בדקי עכשיו!
+
+### הכנה לפורטל סוכנים
+https://example.com/agent-portal-prep
+מערכת ניהול הזמנות מתקדמת לסוכנות ונציגות Tzivya.A – צפי בהזמנות לקוחות, עקבי אחר סטטוסים ונהלי את הפעילות העסקית שלך בצורה חכמה ויעילה. התחברי עכשיו!
+
+### צור קשר
+https://example.com/contact
+יש שאלה על מוצר, מידה או הזמנה? צוות Tzivya.A כאן בשבילך! צרי קשר עכשיו ותקבלי מענה אישי מהיר. כי אצלנו כל לקוחה מקבלת יחס של כוכבת אופנה אמיתית.
+
+### Products
+https://example.com/products
+המוצרים שלנו - Tzivya.A
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - Tzivya.A
+
+### Category
+https://example.com/category/:slug
+מוצרים - Tzivya.A
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Tzivya.A
+Tzivya.A is a modest women's fashion brand offering stylish yet modest clothing. The website needs to include detailed product pages with sizing and specifications, and must be built with infrastructure to support an agent/representative portal for viewing and managing customer orders. A logo has been provided by the client.
+
+## Target Audience
+- נשים המחפשות בגדי אופנה צנועה
+- נשים המחפשות אופנה צנועה
+- מנהיגות קהילות דתיות
+- בלוגריות אופנה צנועה
+
+## Industry
+Fashion & Apparel
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
