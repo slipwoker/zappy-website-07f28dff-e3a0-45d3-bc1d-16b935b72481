@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "07f28dff-e3a0-45d3-bc1d-16b935b72481";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "07f28dff-e3a0-45d3-bc1d-16b935b72481";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -368,7 +368,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972549333698" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -838,7 +838,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972549333698';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1005,7 +1005,7 @@
 
       <!-- Card 1 — Large / Featured -->
       <article class="index-testimonials-card index-testimonials-card--featured">
-        <div class="index-testimonials-quote-mark" aria-hidden="true">”</div>
+        <div class="index-testimonials-quote-mark" aria-hidden="true">"</div>
         <blockquote class="index-testimonials-quote">
           <p>קניתי את השמלה לאירוע משפחתי וקיבלתי מחמאות מכל עבר. הגזרה מחמיאה, הבד נושם, והצניעות לא מתפשרת על שום דבר. לבסוף מצאתי מותג שמבין אותי.</p>
         </blockquote>
@@ -1028,7 +1028,7 @@
 
         <!-- Card 2 -->
         <article class="index-testimonials-card index-testimonials-card--offset-top">
-          <div class="index-testimonials-quote-mark" aria-hidden="true">”</div>
+          <div class="index-testimonials-quote-mark" aria-hidden="true">"</div>
           <blockquote class="index-testimonials-quote">
             <p>כמנהיגת קהילה, חשוב לי להופיע בצורה מכובדת ועדיין אופנתית. הקולקציה של צביה.א עושה בדיוק את זה — אלגנטיות שלמה, בלי ויתורים.</p>
           </blockquote>
@@ -1048,7 +1048,7 @@
 
         <!-- Card 3 -->
         <article class="index-testimonials-card index-testimonials-card--offset-bottom">
-          <div class="index-testimonials-quote-mark" aria-hidden="true">”</div>
+          <div class="index-testimonials-quote-mark" aria-hidden="true">"</div>
           <blockquote class="index-testimonials-quote">
             <p>אני יוצרת תוכן אופנה צנועה ומחפשת כל הזמן פריטים שמצלמים טוב ומרגישים נוח. הבדים של צביה.א עמידים, הגוונים עשירים, והעיצוב פשוט מדהים בתמונות.</p>
           </blockquote>
@@ -1200,12 +1200,12 @@
 </section>
   </main>
   
-  <footer class="site-footer" dir="rtl" aria-label="כותרת תחתונה של האתר"> <div class="footer-container"> <!-- TOP GRID --> <div class="footer-grid"> <!-- Column 1: Company Info --> <div class="footer-col footer-brand"> <img src="/assets/tzivya-a-fashion-apparel-logo.webp" alt="Tzivya.A" class="logo"> <p class="footer-tagline">עיצוב צנוע ועדין — בגדים שמספרים סיפור של אלגנטיות שקטה ואופי אמיתי.</p> <div class="footer-badges"> <span class="badge"><i class="fas fa-truck"></i> משלוח חינם</span> <span class="badge"><i class="fas fa-headset"></i> שירות אישי</span> </div> </div> <!-- Column 2: Quick Links --> <div class="footer-col"> <h3 class="footer-heading">ניווט מהיר</h3> <ul class="footer-links"> <li><a href="/">בית</a></li> <li><a href="/brand-story">סיפור המותג</a></li> <li><a href="/fit-details">מידות ופרטי מוצר</a></li> <li><a href="/agent-portal-prep">הכנה לפורטל סוכנים</a></li> <li><a href="/contact">צור קשר</a></li> </ul> </div> <!-- Column 3: Contact Info --> <div class="footer-col"> <h3 class="footer-heading">יצירת קשר</h3> <ul class="footer-contact"> <li> <span class="contact-icon"><i class="fas fa-envelope"></i></span> <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span> </li> <li> <span class="contact-icon"><i class="fas fa-phone"></i></span> <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span> </li> <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span> <span class="contact-text">[business_address]</span></a></li> </ul> </div> <!-- Column 4: Social & Hours --> <div class="footer-col"> <h3 class="footer-heading">עקבו אחרינו</h3> <div class="footer-social">    </div> <div class="footer-hours"> <h4 class="footer-subheading">שעות פעילות</h4> <ul class="hours-list"> <li><a href="/"><span>ראשון – חמישי</span><span>09:00 – 18:00</span></a></li> <li><a href="/"><span>שישי</span><span>09:00 – 13:00</span></a></li> <li><a href="/"><span>שבת</span><span>סגור</span></a></li> </ul> </div> </div> </div> <!-- DIVIDER --> <div class="footer-divider"></div> <!-- BOTTOM BAR --> <div class="footer-bottom"> <p class="footer-copy">© 2026 Tzivya.A. כל הזכויות שמורות.</p> <div class="footer-legal"> <a href="/privacy">מדיניות פרטיות</a> <span class="legal-sep">·</span> <a href="/terms">תנאי שימוש</a><span class="separator">|</span>
+  <footer class="site-footer" dir="rtl" aria-label="כותרת תחתונה של האתר"> <div class="footer-container"> <!-- TOP GRID --> <div class="footer-grid"> <!-- Column 1: Company Info --> <div class="footer-col footer-brand"> <img src="/assets/tzivya-a-fashion-apparel-logo.webp" alt="Tzivya.A" class="logo"> <p class="footer-tagline">עיצוב צנוע ועדין — בגדים שמספרים סיפור של אלגנטיות שקטה ואופי אמיתי.</p> <div class="footer-badges"> <span class="badge"><i class="fas fa-truck"></i> משלוח חינם</span> <span class="badge"><i class="fas fa-headset"></i> שירות אישי</span> </div> </div> <!-- Column 2: Quick Links --> <div class="footer-col"> <h3 class="footer-heading">ניווט מהיר</h3> <ul class="footer-links"> <li><a href="/">בית</a></li> <li><a href="/brand-story">סיפור המותג</a></li> <li><a href="/fit-details">מידות ופרטי מוצר</a></li> <li><a href="/agent-portal-prep">הכנה לפורטל סוכנים</a></li> <li><a href="/contact">צור קשר</a></li> </ul> </div> <!-- Column 3: Contact Info --> <div class="footer-col"> <h3 class="footer-heading">יצירת קשר</h3> <ul class="footer-contact"> <li> <span class="contact-icon"><i class="fas fa-envelope"></i></span> <span class="contact-text"><a href="mailto:Dan1334abcd@gmail.com">Dan1334abcd@gmail.com</a></span> </li> <li> <span class="contact-icon"><i class="fas fa-phone"></i></span> <span class="contact-text"><a href="tel:+972549333698">+972549333698</a></span> </li> <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span> <span class="contact-text">שדרת רמות 12, ירושלים, ישראל , ישראל</span></a></li> </ul> </div> <!-- Column 4: Social & Hours --> <div class="footer-col"> <h3 class="footer-heading">עקבו אחרינו</h3> <div class="footer-social" style="display:none;">    </div> <div class="footer-hours"> <h4 class="footer-subheading">שעות פעילות</h4> <ul class="hours-list"> <li><a href="/"><span>ראשון – חמישי</span><span>09:00 – 18:00</span></a></li> <li><a href="/"><span>שישי</span><span>09:00 – 13:00</span></a></li> <li><a href="/"><span>שבת</span><span>סגור</span></a></li> </ul> </div> </div> </div> <!-- DIVIDER --> <div class="footer-divider"></div> <!-- BOTTOM BAR --> <div class="footer-bottom"> <p class="footer-copy">© 2026 Tzivya.A. כל הזכויות שמורות.</p> <div class="footer-legal"> <a href="/privacy">מדיניות פרטיות</a> <span class="legal-sep">·</span> <a href="/terms">תנאי שימוש</a><span class="separator">|</span>
             <a href="/return-policy" aria-label="מדיניות החזרות">
               מדיניות החזרות
             </a> <span class="legal-sep">·</span> <a href="/accessibility">נגישות</a> <span class="legal-sep">·</span> <a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a> </div> </div> </div> </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp" style="display:none;">
     <i class="fab fa-whatsapp"></i>
   </a>
   
